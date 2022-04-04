@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#page {
+    width: 800px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+h1 {
+    color: #35eac0;
+    font-size: 32px;
+}
+
+div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+p::first-letter {
+    color: black;
+    font-size: xx-large;
+}
+
+span {
+    color: yellow;
+}
+
+}
+
+.box {
+    width: 400px;
+    float: left;
+    display: inline;
+    background-color: #ffffff;
+    padding: 10px;
+
+}
