@@ -3,6 +3,10 @@
     padding: 0 auto;
 }
 
+body {
+    background: url();
+}
+
 #page {
     width: 800px;
     height: 100px;
