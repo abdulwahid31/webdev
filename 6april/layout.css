@@ -1,0 +1,33 @@
+{
+    box-sizing: border-box;
+}
+
+.left{
+    background-color: blueviolet;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.main{
+    background-color: rgb(243, 208, 120);
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+.right{
+    background-color: hotpink;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%;
+    }
+    .text-center {
+        text-align: center;
+    }
+}
